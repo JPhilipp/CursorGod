@@ -1,0 +1,7 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.cursorgod\.com$ [NC]
+RewriteCond %{HTTP_HOST} !^cursorgod$ [NC]
+RewriteRule ^(.*)$ http://cursorgod.com/$1 [R=301,L]

@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    background-color: rgb(124,84,38);
+    color: #fff;
+    font-family: 'Fjalla One', arial, helvetica, sans-serif;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+div {
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+    cursor: default;
+}
+
+a,
+a:visited {
+    color: rgb(255,255,255);
+}
+
+#info {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    text-shadow: 0 2px rgba(0,0,0,.5);
+}
+
+.statsPart {
+    color: rgba(255,255,255,.7);
+    background-color: rgba(205,255,255,.3);
+    height: 170px;
+}
+
+.statsPart,
+.mainInfo {
+    float: left;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 9%;
+}
+
+.statsPartInner,
+.mainInfoInner {
+    padding: 5px;
+}
+
+.categoryHeadline {
+    background-color: rgba(255,255,170,.5);
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    color: rgba(0,30,50,.75);
+    text-shadow: none;
+}
+
+.emptyCategoryIcon {
+    display: inline-block;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.specialEvent {
+    background-color: rgba(140,255,255,.3) !important;
+}
+
+.specialEvent .categoryHeadline {
+    background-color: rgba(140,255,255,.4) !important;
+}
+
+.unlockNote {
+    display: inline-block;
+    opacity: .8;
+    padding-top: 60px;
+}
+
+.worldName {
+    background-color: rgba(255,255,255,0);
+    font-size: 115%;
+    margin-bottom: 46px;
+}
+
+.speech {
+    position: absolute;
+    border-radius: 4px;
+    left: 10px;
+    top: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 4px;
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 2px rgba(0,0,0,.5), 0 0 4px rgba(0,0,0,1);
+}
+
+.icon,
+.emptyIcon {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.emptyIcon {
+    width: 90%;
+    padding-top: 6px;
+    height: 24px;
+    vertical-align: top;
+}
+
+.recipe {
+    display: inline-block;
+    font-size: 80%;
+    margin-top: 2px;
+    border-radius: 3px;
+    background-color: rgba(0,0,50,.15);
+    width: 90%;
+    padding: 4px;
+    border-top: 1px solid rgba(0,0,20,.35);
+    background: linear-gradient( rgba(0,0,50,.2), rgba(0,0,0,0) );
+}
+
+.recipePlus {
+    font-size: 130%;
+}
+
+.happyMoments {
+    font-size: 130%;
+    margin-bottom: 6px;
+}
+
+#moreInfo {
+    display: none;
+    padding-bottom: 40px;
+    font-size: 90%;
+}
+
+#icon_worship       { background: url('images/spritesheet.png?v=1')      0 0; }
+#icon_residential   { background: url('images/spritesheet.png?v=1')  -28px 0; }
+#icon_commerce      { background: url('images/spritesheet.png?v=1')  -56px 0; }
+#icon_entertainment { background: url('images/spritesheet.png?v=1') -84px 0; }
+#icon_industry      { background: url('images/spritesheet.png?v=1') -112px 0; }
+#icon_management    { background: url('images/spritesheet.png?v=1') -140px 0; }
+#icon_services      { background: url('images/spritesheet.png?v=1') -168px 0; }
+#icon_forest        { background: url('images/spritesheet.png?v=1') -196px 0; }
+#icon_water         { background: url('images/spritesheet.png?v=1') -224px 0; }
+
+.recipe .icon {
+    opacity: .8;
+}
+
+#cursor {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('images/cursor.png');
+    background-repeat: no-repeat;
+}
+
+#happyMomentsPerSecondValue,
+.statsSubCategoryValue,
+#worldNameValue {
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
