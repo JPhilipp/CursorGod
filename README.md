@@ -1,6 +1,6 @@
 # CursorGod
 
-What's even simpler than a clicker game? When not even clicking is needed!
+What's even simpler than a clicker game? When clicking isn't needed, either!
 
 In Cursor God, you just hold your mouse over a position and to have the world evolve... through citizens worshipping your cursor, and building structures to praise it!
 
